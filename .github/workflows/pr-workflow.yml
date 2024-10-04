@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI-local
+name: pr-workflow
 
 on: [push]
 
@@ -8,4 +8,6 @@ jobs:
   hello_world_job:
     name: Common PR job
     uses: jglynn/reusable-workflows/.github/workflows/common-pr.yml@main
+    with: 
+      workflow_ref: jglynn/simple-composite-action/.github/workflows/ci.yml
         
