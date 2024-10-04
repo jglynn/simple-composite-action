@@ -11,4 +11,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: simple-composite-action
-        uses: jglynn/simple-composite-action@main
+        uses: jglynn/reusable-workflows/blob/main/.github/workflows/common-pr.yml@main
