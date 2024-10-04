@@ -6,9 +6,6 @@ on: [push]
 
 jobs:
   hello_world_job:
-    runs-on: ubuntu-latest
-    name: A job to say hello
-    steps:
-      - uses: actions/checkout@v4
-      - id: simple-composite-action
-        uses: jglynn/reusable-workflows/blob/main/.github/workflows/common-pr.yml@main
+    name: Common PR job
+    uses: jglynn/reusable-workflows/blob/main/.github/workflows/common-pr.yml@main
+        
