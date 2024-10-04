@@ -1,0 +1,11 @@
+name: 'Hello World'
+description: 'Greet someone'
+
+runs:
+  using: "composite"
+  steps:
+
+    - name: Hello Step
+      id: hello-step
+      run: echo "hello from composite simple action"
+      shell: bash
