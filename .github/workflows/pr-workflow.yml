@@ -1,5 +1,6 @@
-# This is a basic workflow to help you get started with Actions
-
+#
+# Invoke a reusbale workflow with a callback workflow as input
+# 
 name: pr-workflow
 
 on: [push]
