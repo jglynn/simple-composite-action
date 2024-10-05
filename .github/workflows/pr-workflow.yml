@@ -9,5 +9,5 @@ jobs:
     name: Common PR job
     uses: jglynn/reusable-workflows/.github/workflows/common-pr.yml@main
     with: 
-      workflow_ref: jglynn/simple-composite-action/.github/workflows/ci.yml
+      workflow_ref: jglynn/simple-composite-action/.github/workflows/ci.yml@main
         
